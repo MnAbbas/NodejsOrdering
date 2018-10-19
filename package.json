@@ -1,0 +1,24 @@
+{
+  "name": "transportapis",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./middlewares/workers" ,
+    "test": "mocha --ui tdd test/*.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "config": "^2.0.1",
+    "connect-timeout": "^1.9.0",
+    "google-distance-matrix": "^1.1.1",
+    "helmet": "^3.14.0",
+    "morgan": "^1.9.1",
+    "node-constants": "0.0.2",
+    "winston": "^3.1.0",
+    "winston-daily-rotate-file": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
