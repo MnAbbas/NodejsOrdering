@@ -25,27 +25,13 @@ if(cluster.isMaster) {
 //			cache.put('mycacheis' , 'newoe');
     cluster.on('exit', function(worker, code, signal) {
         console.log('Worker ' + worker.process.pid + ' died with code: ' + code + ', and signal: ' + signal);
-        // console.log('pid' , workers[0].process.pid , workers[0].process.env)
-        if (workers[0].process.pid == worker.process.pid){
-          var newworker = cluster.fork({RUN_CRON :  true , wid : worker.id });
-          workers[0]=newworker;
-        }else{
           cluster.fork({RUN_CRON :  false , wid : worker.id });
-        }
-
-        // console.log('Starting a new worker' , nnworker.env.RUN_CRON);
-
     });
 
 } else {
     // console.log('Hi Here I am ' , cluster.worker.process.env.RUN_CRON);
     require('./global').setglobal(function(err , done){
-      if (process.env.RUN_CRON === 'true') {
-        console.log('process.env.RUN_CRON' , process.env.RUN_CRON)
-
-      }else {
         require('../bin/www');
-      }
     });
 
 }
