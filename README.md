@@ -35,7 +35,9 @@ just needed to go to root of project and call
 it will print the result of tests
 
 # Run
-for setup and run project just need these files
+for run the project
+you sould copy the whole project in to one folder
+and then call ``` ./bash.sh ``` 
 - bash.sh ---- this is for setup and run project
 - mysqlscript.sql -- this is mysql script
 
