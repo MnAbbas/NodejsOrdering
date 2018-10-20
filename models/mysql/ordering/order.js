@@ -34,12 +34,9 @@ exports.placeOneOrder= function (params , callback){
 }
 
 exports.getAllOrders= function (params , callback){
-  let fromRec = (params.page -1) * params.limit || 0
-  let toRec = (params.page) * params.limit || 30
-
   utils.performaction({
     sql : "select * from orderinfo limit ? , ?" ,
-    binds : [fromRec, toRec]
+    binds : [params.page, params.limit ]
   } , function (err , result){
     callback(err , result) ;
   })

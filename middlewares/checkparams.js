@@ -26,8 +26,6 @@ module.exports =  function( req, res, next) {
       break
     case 'ordersGET':
       schema = Joi.object().keys({
-        page: Joi.number().required(),
-        limit: Joi.number().required()
       }).unknown()
       break
     default :

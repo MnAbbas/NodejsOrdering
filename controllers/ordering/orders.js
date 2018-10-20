@@ -7,14 +7,21 @@ var express = require('express')
 
 
   router.get('/', function(req, res) {
-    let page = req.param.page;
-    let limit=req.params.limit
-  
+    let page = req.query.page || 0 ;
+    let limit= req.query.limit || 0;
+
+    if (limit ==0){
+      res.status(400).send(JSON.stringify({
+        error : 'Parameter_Not_valid'
+      }));
+      return 
+    }
+
+    console.log("req" , page , limit)
     order.getAllOrders({
-      page : page,
-      limit: limit ,
+      page : parseInt(page) -1 ,
+      limit: parseInt(limit) ,
     }, function(err , affectedrows){
-      console.log(err , affectedrows)
       if (err){
         res.status(500).send(JSON.stringify({
           error : err
