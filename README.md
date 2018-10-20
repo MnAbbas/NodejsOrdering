@@ -11,9 +11,10 @@ I used [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql]
 # Settup
 ``` ./bash.sh ``` 
 will install mysql & nodejs if needed otherwise it will create use , database and one table
+```
 default user is :=dumyuser
 default pass is :=dumypassword
-
+```
 # Existinig mysql
 if an istance of mysql is exist , please in bash.sh provide one user & password 
 to execute the sql scripts
