@@ -6,7 +6,7 @@ I did my best to keep it simple , clean and structured
 this project is built based on mvc models 
 
 # Technology
-I using [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql](https://www.mysql.com) , [chai](https://www.chaijs.com), [mocha](https://mochajs.org) in this project
+I used [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql](https://www.mysql.com) , [chai](https://www.chaijs.com), [mocha](https://mochajs.org) in this project
 
 # Settup
 ``` ./bash.sh ``` 
