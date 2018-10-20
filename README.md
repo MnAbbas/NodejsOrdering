@@ -22,22 +22,27 @@ otherwise it will handeled by the bash file
 
 # Pre-requirment
 this project has its default value such as 
-dbuser information , logfile path , server address listner 
+`dbuser` ,  `information` , `logfile path` , `server address` `listner` 
 but in case of changing anyof them 
-you must have a folder named config
-with a config.yaml in it according to source 
+you must have a folder named `config.json` or `production.json`
+with a default in it according to source 
 you could be able to change it accordingly
 
 # Test
 I create more than 10 test cases which will be tested automaticly
 just needed to go to root of project and call
-``` npm test ```
+```javascript
+ npm test 
+ ```
 it will print the result of tests
 
 # Run
 for run the project
-you sould copy the whole project in to one folder
-and then call ``` ./bash.sh ``` 
+you sould copy the whole project in to one folder , alsoe the bash file must have the permision of execution
+and then call 
+``` bash
+./bash.sh 
+``` 
 - bash.sh ---- this is for setup and run project
 - mysqlscript.sql -- this is mysql script
 
