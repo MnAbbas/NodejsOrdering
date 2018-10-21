@@ -9,7 +9,9 @@ this project is built based on mvc models
 I used [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql](https://www.mysql.com) , [chai](https://www.chaijs.com), [mocha](https://mochajs.org) in this project
 
 # Settup
-``` ./bash.sh ``` 
+```bash
+ ./bash.sh 
+ ``` 
 will install mysql & nodejs if needed otherwise it will create use , database and one table
 ```
 default user is :=dumyuser
@@ -20,13 +22,30 @@ if an istance of mysql is exist , please in bash.sh provide one user & password
 to execute the sql scripts
 otherwise it will handeled by the bash file
 
+# Google API Key
+this project need a Google API key which has permition to call matrix api
+for putting your own Google API Key you shoud go to config folder
+```bash
+ cd config/
+ ```
+under default.json or production.json change 
+```javascript
+"google_keys" : {
+    "apikey" : "YOUR_API_KEY"
+  }
+```
+
 # Pre-requirment
 this project has its default value such as 
-`dbuser` ,  `information` , `logfile path` , `server address` `listner` 
+`dbuser` ,  `information` , `logfile path` , `server address` `listner`  `google api key`
 but in case of changing anyof them 
 you must have a folder named `config.json` or `production.json`
 with a default in it according to source 
 you could be able to change it accordingly
+>permishn on bash.sh is important you must grant execution access to bash.sh
+```bash
+chmod +x bash.sh
+```
 
 # Test
 I create more than 10 test cases which will be tested automaticly
@@ -43,7 +62,4 @@ and then call
 ``` bash
 ./bash.sh 
 ``` 
-- bash.sh ---- this is for setup and run project
-- mysqlscript.sql -- this is mysql script
-
 :+1: its ready to node! :shipit:
