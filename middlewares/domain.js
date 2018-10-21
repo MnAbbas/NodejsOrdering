@@ -25,7 +25,7 @@ module.exports = function(req, res, next) {
 
   });
   res.on('end', function() {
-    console.log('disposing domain for url ' + req.url);
+    // console.log('disposing domain for url ' + req.url);
     // logger.error('disposing domain for url ' + req.url);
     reqd.dispose();
   });

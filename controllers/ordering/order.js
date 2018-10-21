@@ -54,7 +54,7 @@ google.calcvalues([finalorigin] ,[finaldestination] , function(err , resp){
  * @routermethod
  */
 router.put('/:id', function(req, res) {
-  console.log('param' , req.query , req.params)
+  // console.log('param' , req.query , req.params)
   let id = req.params.id ;
   let status= req.query.status  || req.body.status
   
@@ -64,7 +64,7 @@ router.put('/:id', function(req, res) {
     iOrderId: id ,
     notassigned : 'UNASSIGN'
   }, function(err , affectedrows){
-    console.log(err , affectedrows)
+    // console.log(err , affectedrows)
     if (err){
       res.status(500).header("Content-Type", "application/json").send(JSON.stringify({
         error : err
