@@ -73,7 +73,7 @@ runapplication (){
     npm install
     # this is for starting project
     npm start &
-    echo "Esecute the application , go everythere with Nodejs "
+    echo "application is running , go everythere with Nodejs "
     date
     echo
 
