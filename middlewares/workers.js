@@ -1,3 +1,11 @@
+
+/**
+ * worker will run the application as multi-process
+ * it will run workers as much as number of cpu exists
+ * it will add replacable worker if one of them goes down
+ * @middleware
+ */
+
 var cluster = require('cluster');
 var workers = [];
 

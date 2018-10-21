@@ -1,3 +1,19 @@
 {
-
-}
+    "db" : {
+      "mysqlConfig" : {
+        "connectionLimit" :  99,
+        "host"            : "185.159.153.22",
+        "user"            : "joe",
+        "port"            : 3306 ,
+        "password"        : "U_Xz$M,(3${gpTcZ",
+        "database"        : "orders" ,
+        "queueLimit" : 100 ,
+        "connectTimeout" : 1000 ,
+        "debug" : false 
+      }
+    } ,
+    "google_keys" : {
+      "apikey" : "AIzaSyBzuM7atg360ClN4hmao7J3Y0UbvxSrkx8"
+    }
+  }
+  

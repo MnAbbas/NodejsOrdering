@@ -14,6 +14,11 @@ var tsFormat = (new Date()).toLocaleTimeString();
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir);
 }
+
+/**
+ * logger is for logging everything based on enviroment
+ * @helperobject
+ */
 var logger = winston.createLogger({
   transports: [
    // colorize the output to the console

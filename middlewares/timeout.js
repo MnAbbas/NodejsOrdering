@@ -1,4 +1,9 @@
 
+/**
+ * timeout will catch the time-out request 
+ * inside and outside
+ * @middleware
+ */
 
 module.exports = function (req, res, next){
   if (!req.timedout) {

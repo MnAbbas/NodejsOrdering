@@ -2,7 +2,11 @@ var config = require('config');
 var dbConfig = config.get('db.mysqlConfig');
 
 var mysql = require('mysql');
-
+/**
+ * pool will return a pool object will manage the mysql connection
+ * connectionLimit is so important and must be select carefully based on your enviroment
+ * @modelmethod
+ */
 var pool  = mysql.createPool({
   connectionLimit : dbConfig.connectionLimit,
   // queueLimit      : dbConfig.connectionLimit ,

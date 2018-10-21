@@ -5,7 +5,12 @@ var express = require('express')
 
 
 
-
+/**
+ * GET ORDERS will showw all orders and their status
+ * two parameter , page ,imit will present the corresponding records
+ * page will be started as 0 , so all page valiue will be -> page-1
+ * @routermethod
+ */
   router.get('/', function(req, res) {
     let page = req.query.page || 0 ;
     let limit= req.query.limit || 0;

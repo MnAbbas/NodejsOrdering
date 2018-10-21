@@ -1,3 +1,8 @@
+/**
+ * check catch all unwanted error and not handled errors here
+ * @middleware
+ */
+
 var domain = require('domain');
 module.exports = function(req, res, next) {
   var reqd = domain.create();

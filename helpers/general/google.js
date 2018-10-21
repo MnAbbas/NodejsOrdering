@@ -7,9 +7,12 @@ exports.calcvalues= function(origins, destinations, callback){
 
    // console.info('origins' , origins  );
    // console.info('destinations'  , destinations );
-
+/**
+ * matrix is a endpoint to google apis
+ * this function will return the distance and duration bettween two points
+ * @helpermethod
+ */
   distance.matrix(origins, destinations, function (err, distances) {
-    // console.log('distances' , err , distances)
       if (err) {
           callback(err);
       }

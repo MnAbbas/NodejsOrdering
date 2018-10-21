@@ -1,11 +1,11 @@
-# GolangOrdering
+# NodejsOrdering
 this is a sample of restful apis for ordering system
 
 I did my best to keep it simple , clean and structured 
 
 this project is built based on mvc models 
 
-# Technology
+# Technology&Packages
 I used [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql](https://www.mysql.com) , [chai](https://www.chaijs.com), [mocha](https://mochajs.org) in this project
 
 # Settup
@@ -13,14 +13,15 @@ I used [Nodejs](https://nodejs.org)  , [express](http://expressjs.com) , [mysql]
  ./bash.sh 
  ``` 
 will install mysql & nodejs if needed otherwise it will create use , database and one table
-```
+`
 default user is :=dumyuser
 default pass is :=dumypassword
-```
+`
 # Existinig mysql
-if an istance of mysql is exist , please in bash.sh provide one user & password 
+if an istance of mysql is exist , please in bash.sh provide one use data in bash.sh top of the file 
+` username='YOUR_MYSQL_USERNAME' & password='YOUR_MYSQL_USERNAME'  `
 to execute the sql scripts
-otherwise it will handeled by the bash file
+### otherwise it will handeled by the bash file
 
 # Google API Key
 this project need a Google API key which has permition to call matrix api
@@ -34,6 +35,7 @@ under default.json or production.json change
     "apikey" : "YOUR_API_KEY"
   }
 ```
+>you could change the value of this is bash.sh file also it will do all required tasks
 
 # Pre-requirment
 this project has its default value such as 
@@ -42,7 +44,7 @@ but in case of changing anyof them
 you must have a folder named `config.json` or `production.json`
 with a default in it according to source 
 you could be able to change it accordingly
->permishn on bash.sh is important you must grant execution access to bash.sh
+>permission on bash.sh is important you must grant execution access to bash.sh
 ```bash
 chmod +x bash.sh
 ```
@@ -57,7 +59,7 @@ it will print the result of tests
 
 # Run
 for run the project
-you sould copy the whole project in to one folder , alsoe the bash file must have the permision of execution
+you sould copy the whole project in to one folder , alsoe the bash file must have the permission of execution
 and then call 
 ``` bash
 ./bash.sh 

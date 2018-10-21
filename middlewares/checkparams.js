@@ -1,5 +1,10 @@
-// catch 404 and forward to error handler
-// var exception =['/WS/show_pass' ] ;
+/**
+ * check the parameter and if it comply with schema 
+ * it will let it pass
+ * using JOI package
+ * @middleware
+ */
+
 var Joi = require('joi');
 
 module.exports =  function( req, res, next) {

@@ -1,6 +1,10 @@
-// catch 404 and forward to error handler
+/**
+ * global will be define all global value
+ * if you want to use a object or variable throgh whole project
+ * you sould define it here
+ * @middleware
+ */
 
-  //global variables
 async = require('async') ,
 
 exports.setglobal=function(callback){

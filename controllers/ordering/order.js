@@ -3,6 +3,11 @@ var express = require('express')
   , google = HELPERS.google
   , order = MODELES.order;
 
+/**
+ * POST ORDER is for putting order 
+ * it will connect to google api , retrive the distnce and put an order
+ * @routermethod
+ */
 router.post('/', function(req, res) {
  let origin = req.params.origin || req.body.origin ;
  let destination = req.params.destination || req.body.destination ;
@@ -46,7 +51,11 @@ google.calcvalues([finalorigin] ,[finaldestination] , function(err , resp){
 
 });
 
-
+/**
+ * PUT ORDER will take an order and change the status of order
+ * it will recieve the status and change the status as taken one
+ * @routermethod
+ */
 router.put('/:id', function(req, res) {
   console.log('param' , req.query , req.params)
   let id = req.params.id ;
@@ -67,6 +76,10 @@ router.put('/:id', function(req, res) {
       res.status(409).send(JSON.stringify({
         error : "ORDER_ALREADY_BEEN_TAKEN"
       }));
+    }else if (affectedrows==-1){
+      res.status(409).send(JSON.stringify({
+        error : "ORDERID_NOT_FOUND"
+      }));
 
     }else{
       var returnto = {
@@ -77,8 +90,9 @@ router.put('/:id', function(req, res) {
     }
 
   })
-  });
 
+
+  });
 
 
 module.exports = router

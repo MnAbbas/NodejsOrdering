@@ -30,3 +30,14 @@ it('OrderPUT, Wrong Parameter', function(done) {
     });
 });
 
+
+
+
+it('OrderPUT, Wrong Orderid', function(done) {
+    request({ url: 'http://localhost:8080/order/19090909111', method: 'PUT', 
+        json: {status: 'taken'}} ,
+         function(error, response, body) {
+            expect(body.error).to.equal('ORDERID_NOT_FOUND');
+            done();
+    });
+});

@@ -9,20 +9,26 @@ username="root"
 # default password if exists
 password="123456"
 
+# for dumyuser test there is default
+dumyuser="dumyuser"
+# for dumyuser test there is default
+dumypass="dumypassword"
+
+qtation="'"
+RED='\033[0;31m' # Red Color
+NC='\033[0m' # No Color
+BLUE='\033[0;34m' # Blue Color
+
+echo "CREATE DATABASE orders ;
+INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject) VALUES(${qtation}${dumyuser}${qtation},'localhost',PASSWORD(${qtation}${dumypass}${qtation}),'','','') ;
+FLUSH PRIVILEGES;
+GRANT ALL PRIVILEGES ON orders.* to ${qtation}${dumyuser}${qtation}@localhost;
+FLUSH PRIVILEGES;
+use orders ; CREATE TABLE orderinfo (iOrderId int(11) NOT NULL AUTO_INCREMENT,iDistance int(11) DEFAULT NULL, vStatus varchar(45) , dtOrder datetime DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (iOrderId)) ENGINE=InnoDB AUTO_INCREMENT=0;" > _tempfilescript.sql
+
 # Checking there is mysql or not
 mysqlpkg=$(dpkg -l | grep mysql | wc -l)
-nodejspkg=$(dpkg -l | grep node | wc -l)
-
-sqlscript=`CREATE DATABASE orders ;
-INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject) VALUES('dumyuser','localhost',PASSWORD('dumypassword'),'','','') ;
-FLUSH PRIVILEGES;
-GRANT ALL PRIVILEGES ON orders.* to 'dumyuser'@localhost;
-FLUSH PRIVILEGES;
-use orders ; CREATE TABLE orderinfo (iOrderId int(11) NOT NULL AUTO_INCREMENT,iDistance int(11) DEFAULT NULL, vStatus varchar(45) , dtOrder datetime DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (iOrderId)) ENGINE=InnoDB AUTO_INCREMENT=0;`
-
-# Creating file ---> _tempfilescript.sql<-------------------
-echo sqlscript > _tempfilescript.sql
-
+mysqlpkg=$(dpkg -l | grep nodejs | wc -l)
 install_mysql () {
     echo "Install of Mysql just begun"
     date
@@ -43,7 +49,7 @@ install_mysql () {
     # To ensure that the database server launches after a reboot, run the following command:
     systemctl enable mysql
     # This is running the script and create the schema
-    echo "Install of Mysql just finished"
+    printf "${RED}Install of Mysql just finished${NC}\n"
     date
     echo
 
@@ -56,9 +62,8 @@ run_script () {
     echo
 
     # Set the root password
-    execsql="UPDATE mysql.user SET authentication_string = PASSWORD('123456') WHERE User ='root'" 
-    mysql -u $username -p$password -s < mysqlscript.sql
-    echo "User root Updated!"
+    mysql -u $username -p$password -s < _tempfilescript.sql
+    printf "${BLUE}Database Updateded${NC}\n!"
     date
     echo
 }
@@ -67,7 +72,9 @@ runapplication (){
     echo "Esecute the application , go everythere with Golang "
     date
     echo
+    # this will install all required packages based on package.json
     npm install
+    # this is for starting project
     npm start
 }
 installnode (){

@@ -1,3 +1,9 @@
+/**
+ * performaction will call DBselect and it is a single point which you add redis connection as well
+ * for the places you need to do something more thatn mysql action you will added here
+ * this is a middleware method will will manage all request at one place
+ * @modelaccelaretor
+ */
 exports.performaction= function (params , callback){
   DBselect(params , function(err , dbresult){
     if (err){
@@ -7,7 +13,11 @@ exports.performaction= function (params , callback){
     }
   });
 }
-
+/**
+ * DBselect will manage all request to database
+ * this is a middleware method will will manage all request at one place
+ * @modelaccelaretor
+ */
 function DBselect(params , dbresult){
 POOL.getConnection(function(err, connection) {
   if (err){

@@ -2,10 +2,10 @@
   "db" : {
     "mysqlConfig" : {
       "connectionLimit" :  99,
-      "host"            : "185.159.153.22",
-      "user"            : "joe",
+      "host"            : "localhost",
+      "user"            : "dumyuser",
       "port"            : 3306 ,
-      "password"        : "U_Xz$M,(3${gpTcZ",
+      "password"        : "dumypassword",
       "database"        : "orders" ,
       "queueLimit" : 100 ,
       "connectTimeout" : 1000 ,
