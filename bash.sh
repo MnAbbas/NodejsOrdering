@@ -28,7 +28,7 @@ use orders ; CREATE TABLE orderinfo (iOrderId int(11) NOT NULL AUTO_INCREMENT,iD
 
 # Checking there is mysql or not
 mysqlpkg=$(dpkg -l | grep mysql | wc -l)
-mysqlpkg=$(dpkg -l | grep nodejs | wc -l)
+nodejspkg=$(dpkg -l | grep nodejs | wc -l)
 install_mysql () {
     echo "Install of Mysql just begun"
     date
