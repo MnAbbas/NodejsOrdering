@@ -75,7 +75,8 @@ runapplication (){
     # this will install all required packages based on package.json
     npm install
     # this is for starting project
-    npm start
+    npm start &
+    exit 0 
 }
 installnode (){
 # for Node.js 10:
