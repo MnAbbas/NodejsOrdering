@@ -69,13 +69,14 @@ run_script () {
 }
 
 runapplication (){
-    echo "Esecute the application , go everythere with Nodejs "
-    date
-    echo
     # this will install all required packages based on package.json
     npm install
     # this is for starting project
     npm start &
+    echo "application is running , go everythere with Nodejs "
+    date
+    echo
+
     exit 0 
 }
 installnode (){
