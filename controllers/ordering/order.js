@@ -22,7 +22,7 @@ let finaldestination =  destination[0]+','+destination[1]; ;
 // to call google api and get distance  
 google.calcvalues([finalorigin] ,[finaldestination] , function(err , resp){
   if (err){
-    res.status(500).send(JSON.stringify({
+    res.status(500).header("Content-Type", "application/json").send(JSON.stringify({
       error : err
     }));
   }else{
@@ -32,7 +32,7 @@ google.calcvalues([finalorigin] ,[finaldestination] , function(err , resp){
       vStatus : 'UNASSIGN'
     }, function(err , Orderid){
       if (err){
-        res.status(500).send(JSON.stringify({
+        res.status(500).header("Content-Type", "application/json").send(JSON.stringify({
           error : err
         }));
     
@@ -43,7 +43,7 @@ google.calcvalues([finalorigin] ,[finaldestination] , function(err , resp){
         distance : resp.distance || 0 ,
         status : 'UNASSIGN'
       }
-      res.status(200).send(JSON.stringify(returnto));  
+      res.status(200).header("Content-Type", "application/json").send(JSON.stringify(returnto));  
 
     })
   }
@@ -69,15 +69,15 @@ router.put('/:id', function(req, res) {
   }, function(err , affectedrows){
     console.log(err , affectedrows)
     if (err){
-      res.status(500).send(JSON.stringify({
+      res.status(500).header("Content-Type", "application/json").send(JSON.stringify({
         error : err
       }));
     }else if (affectedrows==0){
-      res.status(409).send(JSON.stringify({
+      res.status(409).header("Content-Type", "application/json").send(JSON.stringify({
         error : "ORDER_ALREADY_BEEN_TAKEN"
       }));
     }else if (affectedrows==-1){
-      res.status(409).send(JSON.stringify({
+      res.status(409).header("Content-Type", "application/json").send(JSON.stringify({
         error : "ORDERID_NOT_FOUND"
       }));
 
@@ -85,7 +85,7 @@ router.put('/:id', function(req, res) {
       var returnto = {
         status: "SUCCESS"
       }
-      res.status(200).send(JSON.stringify(returnto));  
+      res.status(200).header("Content-Type", "application/json").send(JSON.stringify(returnto));  
   
     }
 

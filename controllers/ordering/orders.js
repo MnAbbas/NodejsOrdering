@@ -3,8 +3,6 @@ var express = require('express')
   , order = MODELES.order;
   fuel_request = MODELES.fuel_request;
 
-
-
 /**
  * GET ORDERS will showw all orders and their status
  * two parameter , page ,imit will present the corresponding records
@@ -16,7 +14,7 @@ var express = require('express')
     let limit= req.query.limit || 0;
 
     if (limit ==0){
-      res.status(400).send(JSON.stringify({
+      res.status(400).header("Content-Type", "application/json").send(JSON.stringify({
         error : 'Parameter_Not_valid'
       }));
       return 
@@ -28,7 +26,7 @@ var express = require('express')
       limit: parseInt(limit) ,
     }, function(err , affectedrows){
       if (err){
-        res.status(500).send(JSON.stringify({
+        res.status(500).header("Content-Type", "application/json").send(JSON.stringify({
           error : err
         }));
       }else{
@@ -40,7 +38,7 @@ var express = require('express')
           return rObj;
        });
 
-        res.status(200).send(JSON.stringify(reformattedArray));  
+        res.status(200).header("Content-Type", "application/json").send(JSON.stringify(reformattedArray));  
     
       }
   

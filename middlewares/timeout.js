@@ -9,7 +9,7 @@ module.exports = function (req, res, next){
   if (!req.timedout) {
 	  next();
   }else{
-    res.status(400).send(JSON.stringify({
+    res.status(400).header("Content-Type", "application/json").send(JSON.stringify({
       error : "Timeout exceeded"
     }));
 
