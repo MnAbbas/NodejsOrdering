@@ -31,10 +31,10 @@ it('OrderGET , Wrong Parameter Value', function(done) {
 });
 
 it('OrderGET , Data Not Found', function(done) {
-    request({ url: 'http://localhost:8080/orderss?page=1000000&limit=n', method: 'GET', 
+    request({ url: 'http://localhost:8080/orders?page=1000000&limit=10', method: 'GET', 
         json: {}} ,
         function(error, response, body) {
-            expect(body.error).to.equal('ORDERID_NOT_FOUND');
+            expect(body.error).to.equal('DATA_NOT_FOUND');
             done();
     });
 });
