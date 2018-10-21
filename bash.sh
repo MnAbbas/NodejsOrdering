@@ -73,7 +73,7 @@ runapplication (){
     npm install
     # this is for starting project
     npm start &
-    echo "application is running , go everythere with Nodejs "
+    printf "${RED} application is running , ready to go ${NC}\n"
     date
     echo
 
