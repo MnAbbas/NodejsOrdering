@@ -10,8 +10,8 @@ var express = require('express')
  * @routermethod
  */
   router.get('/', function(req, res) {
-    let page = req.query.page || 0 ;
-    let limit= req.query.limit || 0;
+    let page = req.query.page  ;
+    let limit= req.query.limit ;
     if (isNaN(page) || isNaN(limit)){
       res.status(400).header("Content-Type", "application/json").send(JSON.stringify({
         error : 'Parameter_Not_valid'
