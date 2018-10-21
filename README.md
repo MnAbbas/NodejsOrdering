@@ -31,8 +31,10 @@ for putting your own Google API Key you shoud go to config folder
  ```
 under default.json or production.json change 
 ```javascript
-"google_keys" : {
-    "apikey" : "YOUR_API_KEY"
+"google" : {
+    "apikey" : "YOUR_API_KEY" ,
+    "units" : "YOUR_DESIRE_UNIT" ,
+    "mode" : "YOUR_DESIRE_MODE"
   }
 ```
 >you could change the value of this is bash.sh file also it will do all required tasks

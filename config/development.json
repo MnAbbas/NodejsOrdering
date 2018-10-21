@@ -12,8 +12,11 @@
         "debug" : false 
       }
     } ,
-    "google_keys" : {
-      "apikey" : "AIzaSyBzuM7atg360ClN4hmao7J3Y0UbvxSrkx8"
+    "google" : {
+      "apikey" : "AIzaSyBzuM7atg360ClN4hmao7J3Y0UbvxSrkx8" ,
+      "mode" : "driving" ,
+      "units" : "imperial"
+  
     }
   }
   

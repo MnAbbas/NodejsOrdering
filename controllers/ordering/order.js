@@ -12,9 +12,6 @@ router.post('/', function(req, res) {
  let origin = req.params.origin || req.body.origin ;
  let destination = req.params.destination || req.body.destination ;
 
- console.log('cordinate',origin[0] , destination[0])
-
-
 let finalorigin = origin[0] +','+origin[1];
 let finaldestination =  destination[0]+','+destination[1]; ;
 

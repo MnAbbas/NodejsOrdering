@@ -20,9 +20,8 @@ var express = require('express')
       return 
     }
 
-    console.log("req" , page , limit)
     order.getAllOrders({
-      page : parseInt(page) -1 ,
+      page : ( page==0 ? 0 : parseInt(page) -1 ) ,
       limit: parseInt(limit) ,
     }, function(err , affectedrows){
       if (err){

@@ -15,8 +15,6 @@ module.exports =  function( req, res, next) {
   let schema = Joi.object().keys({
   }).unknown()
 
-  console.log("rul" , url)
-
   switch (url + method){
     case 'orderPOST':
       schema = Joi.object().keys({

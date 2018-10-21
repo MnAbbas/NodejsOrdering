@@ -177,3 +177,414 @@
 {"message":null,"level":"info"}
 {"message":null,"level":"info"}
 {"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"code":"PROTOCOL_SEQUENCE_TIMEOUT","fatal":true,"timeout":10000,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"0":"1,281 km","1":"UNASSIGN","level":"error","message":"INSERT INTO orderinfo (iDistance, vStatus) VALUES ( ? , ? )"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true,"level":"error"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"0":"1,281 km","1":"UNASSIGN","level":"error","message":"INSERT INTO orderinfo (iDistance, vStatus) VALUES ( ? , ? )"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"0":"1,281 km","1":"UNASSIGN","level":"error","message":"INSERT INTO orderinfo (iDistance, vStatus) VALUES ( ? , ? )"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"level":"error","message":"Error occured"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"0":13,"1":10,"level":"error","message":"select * from orderinfo orderby iOrderId limit ? , ?"}
+{"0":13,"1":10,"level":"error","message":"select * from orderinfo orderby iOrderId limit ? , ?"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"0":-10,"1":10,"level":"error","message":"select * from orderinfo order by iOrderId limit ? , ?"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}
+{"message":null,"level":"info"}

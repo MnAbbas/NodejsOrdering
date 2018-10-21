@@ -69,7 +69,7 @@ run_script () {
 }
 
 runapplication (){
-    echo "Esecute the application , go everythere with Golang "
+    echo "Esecute the application , go everythere with Nodejs "
     date
     echo
     # this will install all required packages based on package.json
