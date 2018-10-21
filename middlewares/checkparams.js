@@ -42,7 +42,7 @@ module.exports =  function( req, res, next) {
   Joi.validate(req.body, schema, function (err, value){
     if (err){
       // err = CONSTANT.check_inputs.failure_1
-      res.status(409).send(JSON.stringify({
+      res.status(409).header("Content-Type", "application/json").send(JSON.stringify({
         error : err
       }));
     }else{
