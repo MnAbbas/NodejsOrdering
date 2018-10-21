@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./middlewares/workers" ,
+    "start": "NODE_ENV=production node ./middlewares/workers" ,
     "test": "mocha --ui tdd test/*.js"
   },
   "dependencies": {
