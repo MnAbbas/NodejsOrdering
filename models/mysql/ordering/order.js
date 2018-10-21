@@ -69,7 +69,7 @@ function checkitemexist (params , callback){
  * @modelmethod
  */
 exports.getAllOrders= function (params , callback){
-  console.info(params)
+  // console.info(params)
   utils.performaction({
     sql : "select * from orderinfo order by iOrderId limit ? , ?" ,
     binds : [params.page*params.limit, params.limit ]

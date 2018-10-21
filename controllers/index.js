@@ -16,7 +16,6 @@ var express = require('express')
               var name = file.replace('.js', '');
             //   address =  dir.replace(__dirname, '.') + '/' + name;
               address =  dir.replace(__dirname+"/\/", '.') + '/' + name;
-              console.log( dir , name , address) ;
               router.use('/' + name , require(address)) ;
             }
         }

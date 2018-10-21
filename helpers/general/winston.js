@@ -22,17 +22,17 @@ if (!fs.existsSync(logDir)) {
 var logger = winston.createLogger({
   transports: [
    // colorize the output to the console
-   new (winston.transports.Console)({
-     timestamp: tsFormat,
-     colorize: true,
-     level: 'info'
-   }),
+  //  new (winston.transports.Console)({
+  //    timestamp: tsFormat,
+  //    colorize: true,
+  //    level: 'info'
+  //  }),
     new (require('winston-daily-rotate-file'))({
       filename: logDir + '/results-',
       timestamp: tsFormat,
-      datePattern: 'yyyy-MM-dd',
+      datePattern: 'YYYY-MM-DD',
       prepend: false,
-      level: env === 'development' ? 'debug' : 'info'
+      level: env === 'production' ? 'debug' : 'info'
     })
   ]
 });
