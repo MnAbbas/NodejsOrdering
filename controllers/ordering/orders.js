@@ -36,8 +36,13 @@ var express = require('express')
           rObj['status'] = obj.vStatus;
           return rObj;
        });
-
+       if (reformattedArray.length ==0 ){
+        res.status(400).header("Content-Type", "application/json").send(JSON.stringify({
+          error : 'DATA_NOT_FOUND'
+        }));  
+       }else{
         res.status(200).header("Content-Type", "application/json").send(JSON.stringify(reformattedArray));  
+       }
     
       }
   
